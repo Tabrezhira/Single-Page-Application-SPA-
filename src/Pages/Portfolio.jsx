@@ -79,7 +79,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className=" w-96 md:w-93  xl:w-90  hover:shadow-[0_10px_25px_rgba(255,255,255,0.1)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] h-105 flex justify-center items-center border border-[#737373] rounded-xl">
+        <div className="   w-96 md:w-93  xl:w-90  hover:shadow-[0_10px_25px_rgba(255,255,255,0.1)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] h-105 flex justify-center items-center border border-[#737373] rounded-xl">
           <div className="w-96 xl:w-75  h-90 flex justify-between items-center flex-col">
             <div className="w-80 h-53 xl:w-75 xl:h-50 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-[length:200%_200%] animate-gradient-move"></div>
             <div className=" flex items-start justify-between   mt-5 flex-col xl:w-75  mx-auto  ">
@@ -103,7 +103,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className=" w-96 md:w-93  xl:w-90   hover:shadow-[0_10px_25px_rgba(255,255,255,0.1)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] h-105 flex justify-center items-center border border-[#737373] rounded-xl">
+        <div className="hidden w-96 md:w-93  xl:w-90   hover:shadow-[0_10px_25px_rgba(255,255,255,0.1)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] h-105 xl:flex justify-center items-center border border-[#737373] rounded-xl">
           <div className="w-96 xl:w-75  h-90 flex justify-between items-center flex-col">
             <div className="w-80 h-53 xl:w-75 xl:h-50 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-[length:200%_200%] animate-gradient-move"></div>
             <div className=" flex items-start justify-between   mt-5 flex-col xl:w-75  mx-auto  ">
@@ -127,7 +127,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className=" w-96 md:w-93  xl:w-90  hover:shadow-[0_10px_25px_rgba(255,255,255,0.1)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] h-105 flex justify-center items-center border border-[#737373] rounded-xl">
+        <div className="hidden w-96 md:w-93  xl:w-90  hover:shadow-[0_10px_25px_rgba(255,255,255,0.1)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] h-105 xl:flex justify-center items-center border border-[#737373] rounded-xl">
           <div className="w-96 xl:w-75  h-90 flex justify-between items-center flex-col">
             <div className="w-80 h-53 xl:w-75 xl:h-50 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-[length:200%_200%] animate-gradient-move"></div>
             <div className=" flex items-start justify-between   mt-5 flex-col xl:w-75  mx-auto  ">
@@ -151,7 +151,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className=" w-96 md:w-93  xl:w-90  hover:shadow-[0_10px_25px_rgba(255,255,255,0.1)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] h-105 flex justify-center items-center border border-[#737373] rounded-xl">
+        <div className=" hidden w-96 md:w-93  xl:w-90  hover:shadow-[0_10px_25px_rgba(255,255,255,0.1)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] h-105 xl:flex justify-center items-center border border-[#737373] rounded-xl">
           <div className="w-96 xl:w-75  h-90 flex justify-between items-center flex-col">
             <div className="w-80 h-53 xl:w-75 xl:h-50 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-[length:200%_200%] animate-gradient-move"></div>
             <div className=" flex items-start justify-between   mt-5 flex-col xl:w-75  mx-auto  ">
@@ -175,7 +175,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className=" w-96 md:w-93  xl:w-90  hover:shadow-[0_10px_25px_rgba(255,255,255,0.1)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] h-105 flex justify-center items-center border border-[#737373] rounded-xl">
+        <div className="hidden w-96 md:w-93  xl:w-90  hover:shadow-[0_10px_25px_rgba(255,255,255,0.1)] transition-all duration-300 hover:-translate-y-2 hover:scale-[1.02] h-105 xl:flex justify-center items-center border border-[#737373] rounded-xl">
           <div className="w-96 xl:w-75  h-90 flex justify-between items-center flex-col">
             <div className="w-80 h-53 xl:w-75 xl:h-50 rounded-xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-[length:200%_200%] animate-gradient-move"></div>
             <div className=" flex items-start justify-between   mt-5 flex-col xl:w-75  mx-auto  ">
