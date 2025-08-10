@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+@tailwind utilities;
+
+/* Custom container sizes */
+@layer components {
+  .custom-container {
+    @apply mx-auto;
+    
+    /* Small screens (default) - 430px */
+    max-width: 386px;
+    
+    /* Medium screens - 800px */
+    @media (min-width: 800px) {
+      max-width: 711.39px;
+    }
+
+
+    
+    /* Extra Large screens - 1728px */
+    @media (min-width: 1728px) {
+      max-width: 1531px;
+    }
+  }
+}
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+    @keyframes spin-slow {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+    @keyframes gradient-move {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+ --animate-gradient-move: gradient-move 8s ease infinite;
+  --animate-spin-slow: spin-slow 8s linear infinite; /* 8s for slower rotation */
+}
+
+body{
+    background: black;
+   
+}
+
+@layer utilities {
+  @keyframes gradient-move {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .animated-gradient {
+    background: linear-gradient(-45deg, #ff6a00, #ee0979, #ff6a00, #ee0979);
+    background-size: 400% 400%;
+    animation: gradient-move 10s ease infinite;
+    -webkit-animation: gradient-move 10s ease infinite;
+}
+}
+
+html {
+  scroll-behavior: smooth;
+}
