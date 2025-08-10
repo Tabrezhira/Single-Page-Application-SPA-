@@ -1,6 +1,6 @@
 import React from "react";
 
-function Portfolioo() {
+function Portfolio() {
   return (
     <section className="w-96 md:w-full container mx-auto font-poppins mt-13 md:mt-24 xl:mt-20 ">
       <h1 className="text-[26px] md:text-4xl xl:text-5xl font-poppins font-bold mb-7 text-white">
@@ -204,4 +204,4 @@ function Portfolioo() {
   );
 }
 
-export default Portfolioo;
+export default Portfolio;

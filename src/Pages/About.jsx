@@ -1,6 +1,6 @@
 import { IoShield } from "react-icons/io5";
 
-function Kaleb() {
+function About() {
   return (
     <div className='w-full h-88 md:h-90 xl:h-159  mt-20 flex items-center justify-center animated-gradient'>
         <div className=' container mx-auto w-107 h-61 h- md:w-199 md:h-68 xl:w-273 xl:h-111 flex flex-col items-center justify-between  '>
@@ -14,4 +14,4 @@ function Kaleb() {
   )
 }
 
-export default Kaleb
+export default About

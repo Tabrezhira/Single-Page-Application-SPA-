@@ -5,10 +5,10 @@ import "./App.css";
 import Nav from "./Pages/Nav";
 import Hero from "./Pages/Hero";
 import Rates from "./Pages/Rates";
-import Portfolioo from "./Pages/Portfolioo";
+import Portfolio from "./Pages/Portfolio";
 import Skills from "./Pages/Skills";
-import Kaleb from "./Pages/Kaleb";
-import Life from "./Pages/Life";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 import Footer from "./Pages/Footer";
 
 function App() {
@@ -17,25 +17,18 @@ function App() {
   return (
     <main className="mx-auto w-full overflow-x-hidden ">
       <Nav />
-      <section id="home">
-        <Hero />
-      </section>
+
+      <Hero />
 
       <Rates />
-      <section id="portfolio">
-        <Portfolioo />
-      </section>
 
-      <section id="skills">
-        <Skills />
-      </section>
-      <section id="about">
-        <Kaleb />
-      </section>
+      <Portfolio />
 
-      <section id="contact">
-        <Life />
-      </section>
+      <Skills />
+
+      <About />
+
+      <Contact />
 
       <Footer />
     </main>
