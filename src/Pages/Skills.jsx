@@ -5,7 +5,7 @@ function Skills() {
   useEffect(() => {
     const timer = setInterval(() => {
       setProgress((prev) => {
-        if (prev < 97) return prev + 1;
+        if (prev < 85) return prev + 1;
         clearInterval(timer);
         return prev;
       });
